@@ -41,7 +41,7 @@ You can modify these values in the code to suit your needs.
 2. Run the server:
 
 ```bash
-python chat_server.py
+python server.py
 ```
 
 3. The server will display: `server listening on 0.0.0.0:1111`
@@ -51,7 +51,7 @@ python chat_server.py
 Clients can connect to the server using any TCP socket client, such as Telnet or a custom client application:
 
 ```bash
-telnet <server_ip> 1111
+telnet <server_ip> <port>
 ```
 
 ### Server Workflow
